@@ -5,7 +5,9 @@ import com.jenius.springevil.proxy.UserServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
-
+/*
+    教程来源：https://juejin.cn/post/6844903744954433544#heading-4
+ */
 public class Client2 {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException {
         // 设置变量可以保存动态代理类，默认名称以 $Proxy0 格式命名
@@ -27,9 +29,8 @@ public class Client2 {
 		 */
         /* Comment by PJ
            这里的classLoader和interfaces都是为了复制类使用的，后面的logHandler包含了增强的信息。
-           logHandler需要一个原来类实例的原因是它需要在被强化的那个方法被调用时，执行原来的方法和额外的增强内容。
-           他得知道是哪个类的哪个方法的哪个参数
-           logHandler里面也是基于接口-反射的思路处理的
+           Q: 为什么后面的logHandler需要一个userServiceImpl作为入参呢？
+           A: logHandler要对原函数做增强就得认识原函数吧
          */
         UserService proxy = (UserService) Proxy.newProxyInstance(classLoader, interfaces, logHandler);
         // 调用代理的方法
