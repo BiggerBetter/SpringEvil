@@ -1,4 +1,4 @@
-package com.jenius.springAngel.aliyun;
+package com.jenius.springAngel.citic;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
