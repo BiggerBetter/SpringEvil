@@ -1,4 +1,4 @@
-package com.jenius.springevil.proxy.JDKDynamicProxy;
+package com.jenius.springAngel.proxy.JDKDynamicProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

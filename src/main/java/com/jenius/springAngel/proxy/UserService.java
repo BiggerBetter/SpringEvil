@@ -1,4 +1,4 @@
-package com.jenius.springevil.proxy;
+package com.jenius.springAngel.proxy;
 
 public interface UserService {
     public void select();

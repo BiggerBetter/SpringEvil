@@ -1,4 +1,4 @@
-package com.jenius.springevil;
+package com.jenius.springAngel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

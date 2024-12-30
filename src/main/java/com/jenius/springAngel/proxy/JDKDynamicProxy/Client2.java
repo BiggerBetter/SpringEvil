@@ -1,7 +1,7 @@
-package com.jenius.springevil.proxy.JDKDynamicProxy;
+package com.jenius.springAngel.proxy.JDKDynamicProxy;
 
-import com.jenius.springevil.proxy.UserService;
-import com.jenius.springevil.proxy.UserServiceImpl;
+import com.jenius.springAngel.proxy.UserService;
+import com.jenius.springAngel.proxy.UserServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jenius</groupId>
-	<artifactId>SpringEvil</artifactId>
+	<artifactId>SpringAngel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringEvil</name>
 	<description>SpringEvil</description>

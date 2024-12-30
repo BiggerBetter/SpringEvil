@@ -1,4 +1,4 @@
-package com.jenius.springevil.proxy.CGLibDynamicProxy;
+package com.jenius.springAngel.proxy.CGLibDynamicProxy;
 
 import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;

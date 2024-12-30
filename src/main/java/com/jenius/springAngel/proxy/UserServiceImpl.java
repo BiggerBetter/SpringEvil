@@ -1,4 +1,4 @@
-package com.jenius.springevil.proxy;
+package com.jenius.springAngel.proxy;
 
 public class UserServiceImpl {
     public void select() {

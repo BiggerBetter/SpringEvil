@@ -1,4 +1,4 @@
-package com.jenius.springevil.proxy.CGLibDynamicProxy;
+package com.jenius.springAngel.proxy.CGLibDynamicProxy;
 
 public class UserDao {
     public void select() {
