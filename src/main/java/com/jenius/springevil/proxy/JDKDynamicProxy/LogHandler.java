@@ -19,10 +19,10 @@ public class LogHandler implements InvocationHandler {
     }
     // 调用invoke方法之前执行
     private void before() {
-        System.out.println(String.format("log start time [%s] ", new Date()));
+        System.out.printf("log start time [%s] %n", new Date());
     }
     // 调用invoke方法之后执行
     private void after() {
-        System.out.println(String.format("log end time [%s] ", new Date()));
+        System.out.printf("log end time [%s] %n", new Date());
     }
 }
